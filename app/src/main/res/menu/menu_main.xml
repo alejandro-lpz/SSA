@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bernal.mayra.tab2app.MainActivity">
+    <item
+        android:id="@+id/L1"
+        android:onClick="fragment_fragmento_cuatro"
+        android:orderInCategory="100"
+        android:title="Informacion"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="101"
+        android:title="Configuraciones" />
+    <item
+        android:orderInCategory="102"
+        android:title="Acerca de " />
+    <item
+        android:orderInCategory="103"
+        android:title="Salir" />
+</menu>
